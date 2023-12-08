@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=de dir="ltr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktive Filme</title>
+    <link rel="icon" type="image/x-icon" href="favicon-32.ico" sizes="any">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<meta name="robots" content="noindex">
+
+<meta name="theme-color" content="#ff8c8c">
+
+</head>
+
+<body>
+
+
+    <div class="parallax" data-parallax-speed="0.5">
+    <header class="flex">
+    <h1>Interaktive Filme</h1>
+    <nav>
+        <ul>
+            <li><a href="https://110018-5.web.fhgr.ch/">Geschichte</a></li>
+            <li><a href="film">Film</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="bg-container">
+    </div>
+
+<main>
+<br>
+<h2 class="zwischentitel">Die Evolution interaktiver Filme</h2>
+<p class="introtext" style="text-align: center;">Interaktiver Test Player - Buttons werden in den letzten 5 sec. angezeigt<br> (Funktioniert nicht im Fullscreen und nur auf Desktop)</p>
+
+    <div id="video-container">
+        <video id="moviePlayer" width="640" height="360" controls>
+            <source src="videos/interactive_test_haupt.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="choiceButtons" class="hidden">
+            <button onclick="playVideo('videos/interactive_test_choice_1.mp4')">Wahl 1</button>
+            <button onclick="playVideo('videos/interactive_test_choice_2.mp4')">Wahl 2</button>
+        </div>
+    </div>
+
+
+<br>
+    <button id="reset" class="reset_bt" onclick="location.reload();">Resetten</button>
+<br>
+    <br>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+
+       
+        <p>&copy; 2023 </p>
+ 
+
+      </div>
+</footer>
+</div>
+    
+
+    <script src="js/film.js"></script>
+
+</body>
+
+</html>
