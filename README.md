@@ -23,6 +23,6 @@ Es gibt also noch vieles, wo ich an diesem Player arbeiten könnte, aber ich wei
 
 - Codepen
 - Stackoverflow
-- Modzialla Docs
+- Mozialla Docs
 
 - ChatGPT (Ideen für JS Funktionen, welche nicht funktionieren.. und Hauptsächlich Debugging, wenn Stackoverflow kp hat)
